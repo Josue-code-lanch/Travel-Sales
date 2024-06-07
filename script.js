@@ -8,9 +8,9 @@ let parrafoElemento = document.getElementById('parrafo');
 let precioElemento = document.getElementById('precio')
 
 //AGREGAR UN EVENTO CLICK A CADA ENLACE
-enlaces.forEach(function(enlace){
-    enlace.addEventListener('click', function(){
-        //REMOVER EL ACTIVO
+enlaces.forEach(function (enlace) {
+    enlace.addEventListener('click', function () {
+        //REMOVER LA CLASE 'ACTIVE'
         enlaces.forEach(function (enlace) {
             enlace.classList.remove('active');
         });
